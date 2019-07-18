@@ -7,3 +7,10 @@ margin-top: 10px;
 margin-bottom: 20px;
 font-weight: 600;
 }
+
+#bio-image, #about, #portfolio {
+    margin-bottom: 30px;
+}
+
+#contact-info {
+}

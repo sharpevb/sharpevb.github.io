@@ -3,49 +3,83 @@
 
 <head>
     <meta charset="UTF-8">
-        <title>Victoria Sharpe</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Victoria Sharpe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <nav id="nav" class="level">
+        <nav id="nav" class="level is-fluid">
             <p class="level-item has-text-centered">
-              <a href="https://sharpevb.github.io/" class="link is-info title is-4">Home</a>
+                <a href="https://sharpevb.github.io/" class="link is-info title is-4">Home</a>
             </p>
             <p class="level-item has-text-centered">
-              <a href="#about" class="link is-info title is-4">About</a>
+                <a href="#about" class="link is-info title is-4">About</a>
             </p>
             <p class="level-item has-text-centered">
-              <a class="link is-info title is-4" >Portfolio</a>
+                <a href="#portfolio" class="link is-info title is-4">Portfolio</a>
             </p>
             <p class="level-item has-text-centered">
-              <a class="link is-info title is-4">Contact</a>
+                <a href="#contact-info" class="link is-info title is-4">Contact</a>
             </p>
-          </nav>
+        </nav>
     </header>
-<div class="container">
-    <img class="image is-fluid" src="images/sharpe.jpg">    
-</div>
-
 
 
     <div class="container">
+        <img id="bio-image" class="image is-fluid" src="images/sharpe.jpg">
+    </div>
+
+    <div id="about" class="container is-fluid">
         <section>
-            <a class="title is-1" id="about">About</a>
+            <a class="title is-1">About</a>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </section>
+    </div>
 
-        <section id="contact-info">
-            <h2>Contact Info</h2>
+    <div id="portfolio" class="container is-fluid">
+            <a class="title is-1">Portfolio</a>        
+        <div class="columns">
+        <div class="column">
+            <div class="card is-danger">
+                <div class="hero is-warning">
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">Hold My Beer!</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        <div class="column">
+            <div class="card">
+                2nd project
+            </div>
+        </div>    
+    </div>
+
+    <div id="contact-info" class="container is-fluid">
+        <section>
+            <a class="title is-1">Contact Info</a>
             <ul>
                 <li><b>Email:</b> <a href="mailto:victoriabsharpe@gmail.com">victoriabsharpe@gmail.com</a></li>
                 <li><b>GitHub:</b> <a href="https://github.com/sharpevb">sharpevb</a></li>
-                <li><b>Portfolio:</b> <a href="#">Not yet :)</a></li>
             </ul>
         </section>
     </div>
