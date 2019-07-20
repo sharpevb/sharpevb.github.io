@@ -8,8 +8,19 @@ margin-bottom: 20px;
 font-weight: 600;
 }
 
-#bio-image, #about, #portfolio {
+#about, #portfolio {
     margin-bottom: 30px;
+}
+#bio-image {
+    margin-bottom: 30px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    font-size: 15pt;
 }
 
 #contact-info {
