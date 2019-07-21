@@ -6,21 +6,31 @@ font-family: 'Poppins', sans-serif
 margin-top: 10px;
 margin-bottom: 20px;
 font-weight: 600;
+position: relative;
 }
 
 #about, #portfolio {
     margin-bottom: 30px;
 }
+
 #bio-image {
     margin-bottom: 30px;
-    width: 75%;
+    width: 78%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 #bio {
-    font-size: 15pt;
+    padding-top: 10px;
+    font-size: 16pt;
+    line-height: 22pt;
+}
+
+#resume-link {
+    font-size: 18pt;
+    line-height: 22pt;   
+    margin: 10px 0 20px 0; 
 }
 
 #contact-info {
