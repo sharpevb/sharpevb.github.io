@@ -29,14 +29,13 @@ position: relative;
 }
 
 #resume {
-    font-size: 18pt;
+    font-size: 15pt;
     line-height: 22pt;   
     margin: 10px 0 20px 0; 
 }
 
 #resume-link {
-    font-size: 22pt;
-    margin-top: -10px;
+    font-size: 27pt;
 }
 
 .card {
@@ -48,12 +47,16 @@ a {
     color: black;
 }
 
-#resume-link:hover, #project-name:hover {
+#resume-link:hover, #project-name:hover, #gh-link:hover {
     color: #d08d11;
 }
 
 #project-name {
     font-size: 20pt;
+}
+
+#gh-link {
+    font-size: 17pt;
 }
 .content {
     font-size: 14pt;
