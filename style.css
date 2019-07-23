@@ -9,7 +9,7 @@ font-weight: 600;
 position: relative;
 }
 
-#about, #portfolio {
+#about, #portfolio, #contact-info {
     margin-bottom: 30px;
 }
 
@@ -29,9 +29,10 @@ position: relative;
 }
 
 #resume {
-    font-size: 15pt;
+    font-size: 18pt;
     line-height: 22pt;   
     margin: 10px 0 20px 0; 
+    color: rgba(0, 0, 0, 0.85);
 }
 
 #resume-link {
@@ -62,4 +63,18 @@ a {
     font-size: 14pt;
 }
 #contact-info {
+}
+
+#email, #linkedIn, #github, #phone {
+    font-size: 15pt;
+    line-height: 22pt;   
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact-card {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
 }
