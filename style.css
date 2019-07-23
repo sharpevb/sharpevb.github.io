@@ -62,14 +62,15 @@ a {
     font-size: 14pt;
 }
 #contact-info {
+    margin-bottom: 50px;
 }
 
 #email, #linkedIn, #github, #phone {
-    font-size: 15pt;
+    font-size: 10pt;
     line-height: 22pt;   
     color: rgba(0, 0, 0, 0.85);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #contact-card {
