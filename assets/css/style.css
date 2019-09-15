@@ -1,8 +1,8 @@
 /* General Styling */
 body, header, head, html {
 font-family: 'Poppins', sans-serif;
-color: white;
-background-color: rgb(15, 15, 15);
+color: rgb(221, 221, 230);
+background-color: rgb(26, 26, 26);
 }
 
 /* Nav bar */
@@ -13,7 +13,7 @@ font-weight: 600;
 position: relative;
 }
 
-/* Section Headers */
+/* Sections */
 #about, #portfolio, #contact-info {
     margin-bottom: 30px;
 }
@@ -21,10 +21,10 @@ position: relative;
 /* Picture */
 #image-div {
     padding-top: 20px;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(26, 26, 26);
 }
 #bio-image {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     width: 35%;
     display: block;
     margin-left: auto;
@@ -43,6 +43,7 @@ position: relative;
 #name {
     font-size: 25pt;
     font-weight: 700;
+    color: white;
 }
 .icon {
     margin-right: 10px;
@@ -60,6 +61,9 @@ position: relative;
 #about {
     padding: 30px;
 }
+.title {
+    color: white;
+}
 #bio {
     padding-top: 10px;
     font-size: 15pt;
@@ -67,10 +71,21 @@ position: relative;
 }
 
 /* Portfolio */
-.card {
-    border: 2px solid #7493ca;
+.level {
+    padding: 30px;
+}
+#project-image {
+    border-radius: 18px;
+    padding: 5px;
+}
+.card-image {
+    border: 3px solid #ee44ade1;
     border-radius: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(26, 26, 26);
+}
+.card {
+    border: 3px solid #7493ca;
+    border-radius: 20px;
 }
 
 #project-name {
@@ -100,4 +115,8 @@ position: relative;
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    margin-bottom: 10px;
 }
