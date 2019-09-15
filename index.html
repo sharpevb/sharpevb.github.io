@@ -6,12 +6,13 @@
     <title>Victoria Sharpe</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!--<meta http-equiv="refresh" content="5">-->
 </head>
 
 <body>
-    <!--Navbar-->
+    <!-- Navbar
     <header>
         <nav id="nav" role="navigation" class="level is-fluid">
             <p class="level-item has-text-centered">
@@ -27,15 +28,33 @@
                 <a href="#contact-info" class="link is-info title is-4">Contact</a>
             </p>
         </nav>
-    </header>
+    </header> -->
 
-    <!--Prof Pic-->
-    <div class="container">
-        <img id="bio-image" class="image is-fluid"
-            src="http://www.victoriabsharpe.com/wp-content/uploads/2015/12/Sharpe.jpg">
+    <!-- Prof Pic & Name Text -->
+    <div id="image-div">
+        <img id="bio-image" class="image is-fluid" src="assets/sharpe.jpg">
+
+        <div class="container" id="name-box">
+            <p id="name">VICTORIA SHARPE</p>
+            <p>Web Developer</p>
+            <p>Richmond, VA</p>
+                <div class="content">
+                    <span class="icon is-large">
+                        <a href="https://github.com/sharpevb" target="_blank"><i
+                                class="fab fa-github fa-2x"></i></a></span>
+                    <span class="icon is-large">
+                        <a href="https://www.linkedin.com/in/victoria-sharpe/" target="_blank"><i
+                                class="fab fa-linkedin-in fa-2x"></i></a></span>
+                    <span class="icon is-large" id="envelope">
+                        <a href="mailto:victoriabsharpe@gmail.com" target="_blank"><i
+                                class="far fa-envelope fa-2x"></i></a></span>
+                    <span class="icon is-large"><a href="assets/Sharpe_Resume.pdf" target="_blank"><i
+                                class="far fa-file-alt fa-2x"></i></span>
+                </div>
+        </div>
     </div>
 
-    <!--About-->
+    <!-- About -->
     <div id="about" class="container is-fluid">
         <section>
             <a class="title is-1" id="about-title">About</a>
@@ -62,14 +81,9 @@
         </section>
     </div>
 
-    <!--Portfolio-->
+    <!-- Portfolio -->
     <div id="portfolio" class="container is-fluid">
         <a class="title is-1">Portfolio</a>
-        <div id="resume">
-            <span class="icon is-large">
-                <i class="far fa-file fa-lg"></i></span><a href="assets/Sharpe_Resume.pdf" target="_blank"
-                id="resume-link">Resume</a>
-        </div>
 
         <div class="columns">
             <div class="column">
@@ -107,10 +121,12 @@
                         </div>
 
                         <div class="content">
-                            <p id="info">AutoMan meets the need of retail used auto dealerships to organize their inventory and customer sold information. AutoMan stores customer and vehicle information in a database, eliminating spreadsheets and the reliance of paper documents for information for reporting and audits.
+                            <p id="info">AutoMan meets the need of retail used auto dealerships to organize their
+                                inventory and customer sold information. AutoMan stores customer and vehicle information
+                                in a database, eliminating spreadsheets and the reliance of paper documents for
+                                information for reporting and audits.
                             </p>
-                            <p><a href="https://github.com/sharpevb/AutoMan" target="_blank"
-                                    id="gh-link">GitHub</a></p>
+                            <p><a href="https://github.com/sharpevb/AutoMan" target="_blank" id="gh-link">GitHub</a></p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +148,8 @@
                     <div class="content">
                         <p id="info">Cabbage Collector is a web browser game where the player tries to collect yummy
                             cabbages! Each type of cabbage is worth a different amount of points. The goal is to
-                            collect the same number of cabbages as the target number without going over. Good luck!
+                            collect the same number of Cabbage Points as the target number without going over. Good
+                            luck!
                         </p>
                         <p><a href="https://github.com/sharpevb/Cabbage-Collector" target="_blank"
                                 id="gh-link">GitHub</a></p>
@@ -174,7 +191,8 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4"><a href="https://github.com/sharpevb/liri-node-app" target="_blank" id="project-name">LIRI</a></p>
+                                <p class="title is-4"><a href="https://github.com/sharpevb/liri-node-app"
+                                        target="_blank" id="project-name">LIRI</a></p>
                             </div>
                         </div>
                         <div class="content">
@@ -194,7 +212,7 @@
     </div>
 
 
-    <!--Contact-->
+    <!-- Contact -->
     <div id="contact-info" class="container is-fluid">
         <a class="title is-1">Contact</a>
         <div class="columns">
