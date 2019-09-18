@@ -61,9 +61,6 @@ position: relative;
 #about {
     padding: 30px;
 }
-.title {
-    color: white;
-}
 #bio {
     padding-top: 10px;
     font-size: 15pt;
@@ -71,31 +68,54 @@ position: relative;
 }
 
 /* Portfolio */
-.level {
+#portfolio {
     padding: 30px;
 }
-#project-image {
+.project-image {
     border-radius: 18px;
     padding: 5px;
+    margin-bottom: -6px;
 }
 .card-image {
     border: 3px solid #ee44ade1;
-    border-radius: 20px;
+    border-radius: 18px;
     background-color: rgb(26, 26, 26);
 }
-.card {
-    border: 3px solid #7493ca;
-    border-radius: 20px;
+
+#liri {
+   width: 3000px;
 }
 
-#project-name {
+.project-name {
     font-size: 20pt;
+    color: white;
+}
+
+#HMB:hover {
+    color: hsl(48, 100%, 49%);
+}
+
+#AUTOMAN:hover {
+    color: rgb(8, 95, 112);
+}
+
+#CC:hover {
+    color: rgb(78, 130, 189);
+}
+
+#PMAN:hover {
+    color: #ffff00;
+}
+
+#LIRI:hover {
+    color: #25fe15;
 }
 
 #gh-link {
     font-size: 17pt;
+    color: white;
 }
-.content {
+.info {
     font-size: 14pt;
 }
 #contact-info {
@@ -110,13 +130,7 @@ position: relative;
     margin-top: 10px;
 }
 
-#contact-card {
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
+/* Footer */
 footer {
     margin-bottom: 10px;
 }

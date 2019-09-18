@@ -54,7 +54,7 @@
     </div>
 
     <!-- About -->
-    <div id="about" class="container is-fluid">
+    <div id="about" class="container is-fluid is-mobile">
         <section>
             <div id="bio">
                 <p>Victoria Sharpe was born and raised in Richmond, Virginia. As a kid, all she ever wanted to be was an
@@ -80,133 +80,104 @@
     </div>
 
     <!-- Portfolio -->
-    <div id="portfolio" class="container is-fluid">
+    <div class="container is-fluid" id="portfolio">
         <div class="columns">
-            <div class="column">
-                <div class="level">
-                    <div class="card-image"><img id="project-image" src="assets/images/HMB.png">
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4"><a href="https://github.com/sharpevb/Firefoxes_Bootcamp_Proj1"
-                                        target="_blank" id="project-name"> Hold My Beer</a></p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p id="info">Hold My Beer is a mobile responsive web app that allows users to search a state
-                                or city/state for breweries fitting their choice of size (brewpubs, microbreweries,
-                                regional, and domestic breweries) and if the establishment is currently open or not.</p>
-                            <p><a href="https://github.com/dvavs/Firefoxes_Bootcamp_Proj1" target="_blank"
-                                    id="gh-link">GitHub</a></p>
-                        </div>
-                    </div>
+            <div class="column is-mobile">
+                <div class="card-image"><img class="project-image" src="assets/images/HMB.png">
+                </div>
+            </div>
+            <div class="column is-mobile">
+                <p class="title is-4"><a href="https://dvavs.github.io/Firefoxes_Bootcamp_Proj1/" target="_blank"
+                        class="project-name" id="HMB"> Hold My Beer!</a></p>
+                <div class="info">
+                    <p>Hold My Beer is a mobile responsive web app that allows users to search a
+                        state
+                        or city/state for breweries fitting their choice of size (brewpubs, microbreweries,
+                        regional, and domestic breweries) and if the establishment is currently open or not.
+                    </p>
+                    <p><a href="https://github.com/sharpevb/Firefoxes_Bootcamp_Proj1" target="_blank"
+                            id="gh-link">GitHub</a></p>
                 </div>
             </div>
         </div>
-
-        <div class="column">
-                <div class="card">
-                    <div class="hero">
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4"><a href="https://automan-sequelized.herokuapp.com/"
-                                        target="_blank" id="project-name">AutoMan</a></p>
-                            </div>
-                        </div>
-
-                        <div class="content">
-                            <p id="info">AutoMan meets the need of retail used auto dealerships to organize their
-                                inventory and customer sold information. AutoMan stores customer and vehicle information
-                                in a database, eliminating spreadsheets and the reliance of paper documents for
-                                information for reporting and audits.
-                            </p>
-                            <p><a href="https://github.com/sharpevb/AutoMan" target="_blank" id="gh-link">GitHub</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        <div class="column">
-            <div class="card">
-                <div class="hero">
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4"><a href="https://sharpevb.github.io/Cabbage-Collector/"
-                                    target="_blank" id="project-name">Cabbage Collector</a></p>
-                        </div>
-                    </div>
-
-                    <div class="content">
-                        <p id="info">Cabbage Collector is a web browser game where the player tries to collect yummy
-                            cabbages! Each type of cabbage is worth a different amount of points. The goal is to
-                            collect the same number of Cabbage Points as the target number without going over. Good
-                            luck!
-                        </p>
-                        <p><a href="https://github.com/sharpevb/Cabbage-Collector" target="_blank"
-                                id="gh-link">GitHub</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
         <div class="columns">
-            <div class="column">
-                <div class="card">
-                    <div class="hero">
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4"><a href="https://sharpevb.github.io/Train-Time/" target="_blank"
-                                        id="project-name">Train Time</a></p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p id="info">Train Time is a Google Firebase web app that allows users to add trains to a
-                                list of currently "running" trains. By recieving the first train arrival time and the
-                                train's frequency, the app will calculate using Moment.js the train's next arrival time
-                                and the number of minutes until it arrives.</p>
-                            <p><a href="https://github.com/sharpevb/Train-Time" target="_blank" id="gh-link">GitHub</a>
-                            </p>
-                        </div>
-                    </div>
+            <div class="column is-mobile">
+                <div class="card-image"><img class="project-image" src="assets/images/AM.png">
                 </div>
             </div>
-
-
-            <div class="column">
-                <div class="card">
-                    <div class="hero">
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4"><a href="https://github.com/sharpevb/liri-node-app"
-                                        target="_blank" id="project-name">LIRI</a></p>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <p id="info">LIRI is a command line
-                                node app that works similar to iOS's SIRI. LIRI takes in parameters given by the user
-                                and gives them back data. The user can choose from four different commands to pull up
-                                information about a song, a movie, an artist/band's concert dates, and sample searches
-                                from a .txt file.</p>
-                            <p><a href="https://github.com/sharpevb/liri-node-app" target="_blank"
-                                    id="gh-link">GitHub</a>
-                            </p>
-                        </div>
-                    </div>
+            <div class="column is-mobile">
+                <p class="title is-4"><a href="https://automan-sequelized.herokuapp.com/" target="_blank"
+                        class="project-name" id="AUTOMAN">AutoMan</a></p>
+                <div class="info">
+                    <p>AutoMan meets the need of retail used auto dealerships to organize their
+                        inventory and customer sold information. AutoMan stores customer and vehicle information
+                        in a database, eliminating spreadsheets and the reliance of paper documents for
+                        information for reporting and audits.
+                    </p>
+                    <p><a href="https://github.com/sharpevb/AutoMan" target="_blank" id="gh-link">GitHub</a></p>
                 </div>
             </div>
         </div>
+
+        <div class="columns">
+            <div class="column is-mobile">
+                <div class="card-image"><img class="project-image" src="assets/images/CC.png">
+                </div>
+            </div>
+            <div class="column is-mobile">
+                <p class="title is-4"><a href="https://dvavs.github.io/Firefoxes_Bootcamp_Proj1/" target="_blank"
+                        class="project-name" id="CC">Cabbage Collector</a></p>
+                <div class="info">
+                    <p>Cabbage Collector is a web browser game where the player needs to collect a certain number of cabbages
+                        to cook their meemaw's famous fermented cabbage recipes! Collecting the matching number of cabbages will result you becoming the envy of everyone at the annual cookout; collecting too many cabbages will result you eating those leftovers for the next week.
+                    </p>
+                    <p><a href="https://github.com/sharpevb/Cabbage-Collector" target="_blank" id="gh-link">GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-mobile">
+                <div class="card-image"><img class="project-image" id="liri" src="assets/images/PGAME.png">
+                </div>
+            </div>
+            <div class="column is-mobile">
+                <p class="title is-4"><a href="https://sharpevb.github.io/Train-Time/" target="_blank"
+                        class="project-name" id="PMAN">Pokémon Guessing Game!</a></p>
+                <div class="info">
+                    <p>Who's that Pokémon?! Pokémon Guessing Game is a browser hangman game that has the player guess an
+                        unknown Pokémon with a limited amount of guesses. In an homage to the original show, a blacked
+                        out image of a Pokémon gives the player a hint to who it is. Be the very best and test your
+                        Pokémon knowledge!</p>
+                    <p><a href="https://github.com/sharpevb/Train-Time" target="_blank" id="gh-link">GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-mobile">
+                <div class="card-image"><img class="project-image" id="liri" src="assets/images/LIRI.png">
+                </div>
+            </div>
+            <div class="column is-mobile">
+                <p class="title is-4"><a href="https://github.com/sharpevb/liri-node-app" target="_blank"
+                        class="project-name" id="LIRI">LIRI</a></p>
+                <div class="info">
+                    <p>LIRI is a command line
+                        node app that works similar to iOS's SIRI. LIRI takes in parameters given by the user
+                        and gives them back data. The user can choose from four different commands to pull up
+                        information about a song, a movie, an artist/band's concert dates, and sample searches
+                        from a .txt file.</p>
+                    <p><a href="https://github.com/sharpevb/liri-node-app" target="_blank" id="gh-link">GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
-
 
     <!-- Footer -->
     <footer>
