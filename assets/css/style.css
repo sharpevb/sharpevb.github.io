@@ -53,6 +53,9 @@ position: relative;
     margin-top: 30px;
     margin-left: 15px;
 }
+.fa-envelope {
+    margin-bottom: -4px;
+}
 .fa-file-alt {
     font-size: 27pt;
 }
@@ -115,6 +118,9 @@ position: relative;
     font-size: 17pt;
     color: white;
 }
+#gh-link:hover {
+    color: rgb(216, 34, 34);
+}
 .info {
     font-size: 14pt;
 }
@@ -122,15 +128,53 @@ position: relative;
     margin-bottom: 50px;
 }
 
-#email, #linkedIn, #github, #phone {
-    font-size: 10pt;
-    line-height: 22pt;   
-    color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    margin-top: 10px;
-}
 
 /* Footer */
 footer {
     margin-bottom: 10px;
 }
+
+/* Mobile */
+  @media screen and (max-width: 768px) {
+      /* About */
+    #about {
+        padding: 15px;
+    }
+    #bio {
+        padding-top: 15px;
+        font-size: 18pt;
+        line-height: 22pt;
+        text-align: center;
+    }
+    #bio-image {
+        width: 45%;
+    }
+    .icon {
+        font-size: 25pt;
+        margin-left: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .content {
+        margin-left: -50px;
+    }
+    .fa-github {
+        margin-bottom: 2px;
+    }
+    .fa-envelope {
+        margin-bottom: -4px;
+    }
+    .fa-file-alt {
+        font-size: 45pt;
+        margin-bottom: 2px;
+    }
+
+    /* Portfolio */
+
+    .columns {
+        margin-bottom: 20px;
+        border: 1px solid rgb(95, 95, 95);
+        padding: 20px 10px 20px 10px;
+    }
+  }
+    
