@@ -135,7 +135,7 @@ footer {
 }
 
 /* Mobile */
-  @media screen and (max-width: 640px) {
+  @media only screen and (max-width: 600px) {
       /* About */
     #about {
         padding: 15px;
