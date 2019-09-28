@@ -5,13 +5,14 @@ color: rgb(221, 221, 230);
 background-color: rgb(26, 26, 26);
 }
 
-/* Nav bar */
+/* Nav bar 
 #nav {
 margin-top: 10px;
 margin-bottom: 10px;
 font-weight: 600;
 position: relative;
 }
+*/
 
 /* Sections */
 #about, #portfolio, #contact-info {
@@ -141,32 +142,37 @@ footer {
         padding: 15px;
     }
     #bio {
-        padding-top: 15px;
-        font-size: 18pt;
+        padding-top: 30px;
+        font-size: 15pt;
         line-height: 22pt;
         text-align: center;
     }
     #bio-image {
-        width: 45%;
+        width: 60%;
     }
     .icon {
         font-size: 25pt;
-        margin-left: 50px;
+        margin-left: 10px;
         margin-top: 20px;
         text-align: center;
     }
-    .content {
-        margin-left: -50px;
-    }
+    /* .content {
+        margin-left: -30px;
+    } */
     .fa-github {
+        font-size: 35pt;
         margin-bottom: 2px;
     }
     .fa-envelope {
+        font-size: 35pt;
         margin-bottom: -4px;
     }
     .fa-file-alt {
-        font-size: 45pt;
+        font-size: 35pt;
         margin-bottom: 2px;
+    }
+    .fa-linkedin-in {
+        font-size: 35pt;
     }
 
     /* Portfolio */
