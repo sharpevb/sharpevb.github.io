@@ -115,6 +115,10 @@ position: relative;
     color: #25fe15;
 }
 
+#UPLIFT:hover {
+    color: rgb(167, 253, 224);
+}
+
 #gh-link {
     font-size: 17pt;
     color: white;
