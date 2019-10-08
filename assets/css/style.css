@@ -119,6 +119,9 @@ position: relative;
     color: rgb(167, 253, 224);
 }
 
+#CAP:hover {
+    color: rgb(170, 169, 169);
+}
 #gh-link {
     font-size: 17pt;
     color: white;
