@@ -103,6 +103,10 @@ position: relative;
     color: rgb(8, 95, 112);
 }
 
+#STAYCARE:hover {
+    color: cadetblue;
+}
+
 #CC:hover {
     color: rgb(78, 130, 189);
 }
