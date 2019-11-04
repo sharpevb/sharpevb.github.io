@@ -1,8 +1,8 @@
 /* General Styling */
 body, header, head, html {
 font-family: 'Poppins', sans-serif;
-color: rgb(221, 221, 230);
-background-color: rgb(26, 26, 26);
+color: white;
+background-color: rgb(17, 17, 17);
 }
 
 /* Nav bar 
@@ -22,7 +22,7 @@ position: relative;
 /* Picture */
 #image-div {
     padding-top: 20px;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(17, 17, 17);
 }
 #bio-image {
     margin-bottom: 25px;
@@ -75,6 +75,7 @@ position: relative;
 #portfolio {
     padding: 30px;
 }
+
 .project-image {
     border-radius: 18px;
     padding: 5px;
@@ -91,7 +92,7 @@ position: relative;
 }
 
 .project-name {
-    font-size: 20pt;
+    font-size: 17pt;
     color: white;
 }
 
@@ -138,6 +139,9 @@ position: relative;
 }
 #contact-info {
     margin-bottom: 50px;
+}
+.column {
+    margin-bottom: 20px;
 }
 
 
